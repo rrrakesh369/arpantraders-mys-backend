@@ -3,7 +3,7 @@ dotenv.config(); // ✅ FIRST
 const appRoute = require('./routes/index.js')
 
 const express = require("express");
-const connectDB = require("./config/database");
+const connectDB = require("./config/database.js");
 // const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const path = require("path");
